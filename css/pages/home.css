@@ -1,10 +1,17 @@
-body::before {
-    content: "";
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: url("../../img/background.png");
-    background-size: cover;
-    position: absolute;
+
+.form {
+    background-color: #fff;
+}
+
+.description {
+    color: #fff;
+}
+.main-title {
+    font-weight: normal;
+    letter-spacing: 4px;
+    font-size: 50px;
+}
+.link {
+    color: #fff8;
+    font-weight: bold;
 }
