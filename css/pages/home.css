@@ -1,0 +1,57 @@
+.close {
+    float: right;
+    padding-right: 20px;
+    padding-top: 20px;
+    text-decoration: none;
+    font-size: 25px;
+    text-decoration: none;
+    color: #ccc;
+}
+
+.form {
+    background-color: #fff;
+}
+
+.description {
+    color: #fffd;
+}
+.main-title {
+    font-weight: normal;
+    letter-spacing: 4px;
+    font-size: 50px;
+}
+.policy-terms,
+.policy-terms a {
+    color: #fff9;
+    font-size: 20px;
+}
+
+.form .label {
+    text-transform: uppercase;
+    color: #ccc;
+    font-size: 14px;
+}
+
+.form .input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    display: inline-block;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 14px;
+}
+
+.btn {
+    background-color: #154ddc;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.special a {
+    color: #154ddc;
+    text-decoration: none;
+    font-weight: bold;
+}
