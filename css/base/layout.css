@@ -19,10 +19,10 @@ body::before {
 }
 
 .hero {
-    width: calc(var(--main-width) * 0.45);
+    width: calc(var(--main-width) * 0.4);
 }
 .form {
-    width: calc(var(--main-width) * 0.55);
+    width: calc(var(--main-width) * 0.6);
 }
 
 .description {
@@ -38,7 +38,7 @@ body::before {
 .nav {
     display: inline-block;
     width: 100%;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 .form .row {
     padding-bottom: 40px;
@@ -50,7 +50,7 @@ body::before {
 .row.special {
     flex-direction: row;
     align-items: baseline;
-
+    padding-bottom: 60px;
 }
 
 @media (max-width: 800px) {
