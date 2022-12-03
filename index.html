@@ -38,16 +38,28 @@
                     <a href="#" class="link"> terms of service</a>
                 </p>
             </div>
-            <div class="form">
-                <div class="nav"><a href="#" class="close">X</a></div>
-                <form action="">
+            <div class="right-column">
+                <div class="nav">
+                    <a href="#" class="close">X</a>
+                </div>
+                <form action="/form" class="form">
                     <div class="row">
                         <label for="username" class="label">Username</label>
-                        <input type="text" name="username" id="username" class="input" placeholder="Enter username..."/>
+                        <input
+                            type="text"
+                            name="username"
+                            id="username"
+                            class="input"
+                            placeholder="Enter username..." required/>
                     </div>
                     <div class="row">
                         <label for="email" class="label">E-mail</label>
-                        <input type="email" name="email" id="email" class="input" placeholder="Enter e-mail..." />
+                        <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            class="input"
+                            placeholder="Enter e-mail..." required/>
                     </div>
                     <div class="row">
                         <label for="password" class="label">Password</label>
@@ -55,15 +67,21 @@
                             type="password"
                             name="password"
                             id="password"
-                            class="input" placeholder="Enter password" />
+                            class="input"
+                            placeholder="Enter password" required/>
                     </div>
                     <div class="row">
                         <label for="repeat" class="label">Repeat Password</label>
-                        <input type="password" name="repeat" id="repeat" class="input" placeholder="Repeat your password"/>
+                        <input
+                            type="password"
+                            name="repeat"
+                            id="repeat"
+                            class="input"
+                            placeholder="Repeat your password" required />
                     </div>
                     <div class="row special">
-                        <button class="btn">Get Started</button> <span>or
-                        <a href="#">Sign in</a></span> 
+                        <button type="submit" class="btn">Get Started</button>
+                        <span> or <a href="#" class="sign-in">Sign in</a></span>
                     </div>
                 </form>
             </div>
