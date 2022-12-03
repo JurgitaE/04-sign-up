@@ -1,57 +1,82 @@
-.close {
-    float: right;
-    padding-right: 20px;
-    padding-top: 20px;
+.main-content .description,
+.main-content .link {
+    color: #fffc;
     text-decoration: none;
-    font-size: 25px;
-    text-decoration: none;
-    color: #ccc;
+}
+.main-content .main-title {
+    font-size: 50px;
+    letter-spacing: 4px;
+    line-height: 1em;
+    font-weight: normal;
+}
+.main-content .link {
+    font-size: 15px;
+    line-height: 1em;
+    border-bottom: 1px solid #ccc5;
 }
 
-.form {
+.right-column .close {
+    font-family: cursive;
+    font-size: 25px;
+    padding: 0.8em;
+    line-height: 1em;
+    text-decoration: none;
+    color: var(--secondary-color);
+    transition: all 0.5s;
+}
+.right-column .close:hover {
+    color: var(--main-color);
+}
+.right-column .form,
+.right-column {
     background-color: #fff;
 }
 
-.description {
-    color: #fffd;
-}
-.main-title {
-    font-weight: normal;
-    letter-spacing: 4px;
-    font-size: 50px;
-}
-.policy-terms,
-.policy-terms a {
-    color: #fff9;
-    font-size: 20px;
-}
-
-.form .label {
+.right-column .label {
+    padding-bottom: 1em;
+    color: var(--secondary-color);
     text-transform: uppercase;
-    color: #ccc;
-    font-size: 14px;
 }
 
-.form .input {
+.right-column .input {
+    font-size: 0.9em;
     border: none;
-    border-bottom: 1px solid #ccc;
-    display: inline-block;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    font-size: 14px;
+    border-bottom: 1px solid #ccc5;
+    padding: 0.5em 0em;
+}
+::placeholder {
+    color: #ccc7;
 }
 
-.btn {
-    background-color: #154ddc;
-    color: #fff;
-    padding: 10px 40px;
-    border-radius: 20px;
-    border: none;
-    font-weight: bold;
+.right-column .btn {
+    box-sizing: content-box;
+    font-size: 17px;
+    line-height: 1em;
     letter-spacing: 1px;
-}
-.special a {
-    color: #154ddc;
-    text-decoration: none;
     font-weight: bold;
+    border: none;
+    background-color: var(--main-color);
+    color: #fffc;
+    padding: 0.9em 3.5em;
+    border-radius: 1.5em;
+    border: 1px solid white;
+    transition: all 0.5s;
+}
+.right-column .btn:hover {
+    cursor: pointer;
+    color: #fff;
+    border-color: var(--main-color);
+}
+.right-column .special {
+    font-size: 17px;
+    line-height: 1em;
+}
+.right-column .sign-in {
+    text-decoration: none;
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+.right-column .sign-in:hover {
+    text-decoration: underline;
 }
