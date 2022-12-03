@@ -1,5 +1,5 @@
 :root {
-    --main-width: 900px;
+    --main-width: 1000px;
     --main-color: #154ddc;
     --secondary-color: #ccc;
 }
@@ -12,7 +12,7 @@ body * {
 }
 
 body {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: absolute;
     top: 0px;
     bottom: 0px;
