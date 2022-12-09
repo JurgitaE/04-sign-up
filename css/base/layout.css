@@ -1,13 +1,3 @@
-body::before {
-    content: '';
-    position: fixed;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    background-image: url('../../img/background.png');
-    background-size: cover;
-}
 .main-content {
     width: var(--main-width);
     display: flex;
@@ -19,6 +9,11 @@ body::before {
 .main-content > .hero {
     width: 40%;
     position: relative;
+    height: calc(0.4 * 1.4384 * var(--main-width));
+    background-color: rgb(106, 12, 111);
+    background-image: url(../../img/hero.png);
+    background-size: cover;
+    
 }
 .main-content > .hero img {
     width: 100%;
@@ -28,6 +23,7 @@ body::before {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    z-index: 10;
 }
 .main-content .description {
     display: flex;
