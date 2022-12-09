@@ -14,25 +14,31 @@ body::before {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    position: relative;
+    ;
 }
 
 .main-content > .hero {
     width: calc(var(--main-width) * 0.4);
+    position: relative;
+    
+}
+.main-content > .hero img {
+    width: 100%;
 }
 .main-content .right-column {
     width: calc(var(--main-width) * 0.6);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    z-index: 10;
 }
 .main-content .description {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     position: absolute;
-    top: 100px;
-    bottom: 80px;
+    top: 40px;
+    bottom: 40px;
     left: 50px;
 }
 
