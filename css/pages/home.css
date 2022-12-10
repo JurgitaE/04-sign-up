@@ -48,6 +48,10 @@
     border-bottom: 1px solid #ccc5;
     padding: 0.5em 0em;
 }
+.right-column .form .input:focus {
+    outline-color: #154ddc8a;
+}
+
 ::placeholder {
     color: #ccc7;
 }
@@ -71,16 +75,21 @@
     color: #fff;
     border-color: var(--main-color);
 }
-.right-column .special {
+.right-column .row.special {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5em;
+    padding-top: 1em;
     font-size: 17px;
     line-height: 1em;
+ 
 }
-.right-column .sign-in {
+.sign-in {
     text-decoration: none;
     color: var(--main-color);
     font-weight: bold;
 }
 
-.right-column .sign-in:hover {
+.sign-in:hover {
     text-decoration: underline;
 }
