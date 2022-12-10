@@ -13,12 +13,12 @@ body * {
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
+    height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
+    background-image: url(../../img/hero.png);
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(10px);
+    background-color: #4b139e5d;
 }
