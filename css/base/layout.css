@@ -1,27 +1,22 @@
-body::before {
-    content: "";
-    position: fixed;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    background-image: url("../../img/background.png");
-    background-size: cover;
-}
 .main-content {
     width: var(--main-width);
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    position: relative;
 }
 
 .main-content > .hero {
-    width: calc(var(--main-width) * 0.4);
+    width: 40%;
+    position: relative;
+    height: calc(0.4 * 1.4384 * var(--main-width));
+    background-color: #0242A5;
+    background-image: url(../../img/hero.png);
+    background-size: cover;
+    background-position: center;
 }
 .main-content .right-column {
-    width: calc(var(--main-width) * 0.6);
+    width: 60%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -31,8 +26,8 @@ body::before {
     flex-direction: column;
     justify-content: space-between;
     position: absolute;
-    top: 100px;
-    bottom: 80px;
+    top: 40px;
+    bottom: 40px;
     left: 50px;
 }
 
@@ -51,23 +46,15 @@ body::before {
     flex-direction: column;
     padding-bottom: 2em;
 }
-.right-column .row.special {
-    flex-direction: row;
-    align-items: center;
-    gap: 1.5em;
-    padding-top: 1em;
-}
 
 @media (max-width: 1000px) {
-    .main-content {
+    .main-content .right-column {
+        max-width: 600px;
         width: 80%;
-        justify-content: center;
     }
+
     .main-content > .hero,
     .main-content .description {
         display: none;
-    }
-    .main-content > .hero {
-        width: 100%;
     }
 }
