@@ -20,9 +20,8 @@
 }
 
 .right-column .close {
-    font-family: cursive;
     font-size: 25px;
-    padding: 0.8em;
+    padding: 1em;
     line-height: 1em;
     text-decoration: none;
     color: var(--secondary-color);
@@ -79,10 +78,9 @@
     flex-direction: row;
     align-items: center;
     gap: 0.5em;
-    padding-top: 1em;
+    padding: 1em 0;
     font-size: 17px;
     line-height: 1em;
- 
 }
 .sign-in {
     text-decoration: none;
