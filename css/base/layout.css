@@ -10,7 +10,7 @@
     width: 40%;
     position: relative;
     height: calc(0.4 * 1.4384 * var(--main-width));
-    background-color: #0242A5;
+    background-color: #0242a5;
     background-image: url(../../img/hero.png);
     background-size: cover;
     background-position: center;
@@ -44,7 +44,7 @@
 .right-column .row {
     display: flex;
     flex-direction: column;
-    padding-bottom: 2em;
+    padding-bottom: 1.8em;
 }
 
 @media (max-width: 1000px) {
@@ -56,5 +56,37 @@
     .main-content > .hero,
     .main-content .description {
         display: none;
+    }
+}
+
+@media (max-width: 800px) {
+    .main-content .right-column {
+        width: 80%;
+    }
+}
+
+@media (max-width: 650px) {
+    .right-column .form {
+        padding: 0px 2.5em;
+        padding-bottom: 2.5em;
+        font-size: 15px;
+    }
+    .right-column .row {
+        padding-bottom: 1em;
+    }
+
+    .right-column .row.special {
+        padding: 1em 0;
+        font-size: 15px;
+    }
+    .right-column .form .btn {
+        padding: 0.5em 2em;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 500) {
+    .main-content .right-column {
+        width: 90%;
     }
 }
