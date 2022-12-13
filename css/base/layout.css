@@ -58,3 +58,35 @@
         display: none;
     }
 }
+
+@media (max-width: 800px) {
+    .main-content .right-column {
+        width: 80%;
+    }
+}
+
+@media (max-width: 650px) {
+    .right-column .form {
+        padding: 0px 2.5em;
+        padding-bottom: 2.5em;
+        font-size: 15px;
+    }
+    .right-column .row {
+        padding-bottom: 1em;
+    }
+
+    .right-column .row.special {
+        padding: 1em 0;
+        font-size: 15px;
+    }
+    .right-column .form .btn {
+        padding: 0.5em 2em;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 500) {
+    .main-content .right-column {
+        width: 90%;
+    }
+}
